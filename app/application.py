@@ -1,7 +1,11 @@
-from pages.cureskin_search import  Cureskin_Search
+from pages.cureskin_search import CureSkinSearch
+from pages.main_page import MainPage
+
+
 
 class Application:
 
     def __init__(self, driver):
         self.driver = driver
-        self.cureskin_search = Cureskin_Search(self.driver)
+        self.cureskin_search = CureSkinSearch(self.driver)
+        self.main_page = MainPage(self.driver)
