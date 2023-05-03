@@ -72,7 +72,7 @@ class MainPage(Page):
         #         break
         #
         lowest_price = float(self.find_element(*self.PRICE_FILTER).text.replace('Price: Rs.', '').replace(' — Rs. 725', ''))
-        highest_price = float(self.find_element(*self.PRICE_FILTER).text.replace('Price: Rs. 358 — Rs. ', ''))
+        highest_price = float(self.find_element(*self.PRICE_FILTER).text.replace('Price: Rs. 360 — Rs. ', ''))
 
         all_prices = self.find_elements(*self.ALL_PRICES)
 

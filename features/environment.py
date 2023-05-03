@@ -24,27 +24,27 @@ def browser_init(context):
     # context.driver = webdriver.Firefox(executable_path="/geckodriver")
 
     # ############# FIREFOX #############################
-    context.browser = webdriver.Firefox()
-    options = Options()
-    options.headless = True
-    options.add_argument("-private")
-    context.driver = webdriver.Firefox(options=options, executable_path="./geckodriver")
+    # context.browser = webdriver.Firefox()
+    # options = Options()
+    # options.headless = True
+    # options.add_argument("-private")
+    # context.driver = webdriver.Firefox(options=options, executable_path="./geckodriver")
     # #####################################################
 
     ########### BROWSERSTACK #######################################
     # Register for BrowserStack, then grab it from https://www.browserstack.com/accounts/settings
-    # bs_user = 'laurautarbayeva_5Qur3j'
-    # bs_key = 'PXazetPpJMV2Kx1NYmgH'
-    #
-    # desired_cap = {
-    #     'browserName': 'Firefox',
-    #     'bstack:options': {
-    #         'os': 'Windows',
-    #         'osVersion': '10'
-    #     }
-    # }
-    # url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    # context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    bs_user = 'laurautarbayeva_5Qur3j'
+    bs_key = 'PXazetPpJMV2Kx1NYmgH'
+
+    desired_cap = {
+        'browserName': 'Firefox',
+        'bstack:options': {
+            'os': 'Windows',
+            'osVersion': '10'
+        }
+    }
+    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
     ###################################################################
 
     context.driver.maximize_window()
