@@ -37,6 +37,9 @@ class Page:
     def wait_for_element_appear(self, *locator):
         return self.wait.until(EC.presence_of_element_located(locator))
 
+    def wait_for_element_to_be_visible(self, *locator):
+        return self.wait.until(EC.visibility_of_element_located(locator))
+
     def is_displayed(self, *locator):
         return self.driver.find_element(*locator).is_displayed()
 

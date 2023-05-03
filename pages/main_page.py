@@ -17,10 +17,13 @@ class MainPage(Page):
     PRICE_FILTER = (By.CSS_SELECTOR, ".facets__price > div")
 
     def click_shop_all(self):
-        self.click(*self.SHOP_ALL_SECTION)
+        shop_all_option = self.find_element(*self.SHOP_ALL_SECTION)
+        actions = ActionChains(self.driver)
+        actions.move_to_element(shop_all_option).perform()
+        self.wait_for_element_click(*self.SHOP_ALL_SECTION)
 
     def close_popup_window(self):
-        self.click(*self.POPUP_CLOSE)
+        self.wait_for_element_click(*self.POPUP_CLOSE)
 
     def adjust_price_filter(self):
         self.driver.original_number_of_products = self.find_element(*self.PRODUCTS_COUNT).text

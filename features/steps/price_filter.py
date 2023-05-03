@@ -11,9 +11,12 @@ def open_cireskin_homepe(context):
 @when('Close popup window')
 def close_window(context):
     context.app.main_page.close_popup_window()
+    from time import sleep
+    #sleep(5)
 
 
-@then("Click on Shop All section.")
+
+@then("Click on Shop All section")
 def click_shop_all(context):
     context.app.main_page.click_shop_all()
 
