@@ -33,19 +33,27 @@ def browser_init(context):
 
     ########### BROWSERSTACK #######################################
     # Register for BrowserStack, then grab it from https://www.browserstack.com/accounts/settings
-    bs_user = 'laurautarbayeva_5Qur3j'
-    bs_key = 'PXazetPpJMV2Kx1NYmgH'
-
-    desired_cap = {
-        'browserName': 'Firefox',
-        'bstack:options': {
-            'os': 'Windows',
-            'osVersion': '10'
-        }
-    }
-    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    # bs_user = 'laurautarbayeva_5Qur3j'
+    # bs_key = 'PXazetPpJMV2Kx1NYmgH'
+    #
+    # desired_cap = {
+    #     'browserName': 'Firefox',
+    #     'bstack:options': {
+    #         'os': 'Windows',
+    #         'osVersion': '10'
+    #     }
+    # }
+    # url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    # context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
     ###################################################################
+
+
+    ############################## MOBILE CONFIGURATION ##############################
+    mobile_emulation = {"deviceName": "Nexus 5"}
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+    context.driver = webdriver.Chrome(executable_path='./chromedriver', chrome_options=chrome_options)
+    #####################################################################
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)

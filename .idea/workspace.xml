@@ -6,12 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="a68b190e-742f-460f-a1cf-4cc077242174" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/price_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/price_filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/price_filter_functionality.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/price_filter_functionality.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/0225e671-d739-45f8-ac09-fc04a1c92004-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/0297f8d0-54ff-43b0-8de6-59e7995c810a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/14446e32-14fc-4ed8-9a7e-e3484dc4dfcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/2b3b44ac-0e16-4f4d-9f0a-f715c5e88616-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/327ae38d-4c90-4649-a111-efeafd10bd3e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/41e40048-7e9b-4cea-9ba8-c04f7613da09-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/48dc3fbd-5992-48c5-8e00-940b2864343e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/54d75c91-1031-4087-bed5-51f974e6828b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/759186a6-e73f-4293-87d9-3ff082c8b0e6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/88217720-e569-4a73-9e2b-bc96f6f5d4c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/9d44b2dc-04e5-4f4a-984d-458a48da86a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/aa05debf-9b9f-46e0-9e2d-6146dc70aaa4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/aedfe751-1e39-4559-b7da-86eb2b845d5a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_results/e5328c45-0bc3-45f9-87ad-5a1feb68893d-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +60,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Behave.price_filter_functionality.feature:User can change the price filter">
+  <component name="RunManager" selected="Behave.cureskin_search_results.feature:Verify that Search results UI is correct">
     <configuration name="cureskin_search_results.feature:Verify that Search results UI is correct" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="Cureskin_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Behave.price_filter_functionality.feature:User can change the price filter" />
         <item itemvalue="Behave.cureskin_search_results.feature:Verify that Search results UI is correct" />
+        <item itemvalue="Behave.price_filter_functionality.feature:User can change the price filter" />
         <item itemvalue="Behave.price_filter_functionality.feature:# Enter scenario name here" />
         <item itemvalue="Python.price_filter" />
         <item itemvalue="Behave.hw3_cart_is_empty_3task.feature:User can see Empty cart when clicking on Cart" />
@@ -178,7 +188,7 @@
       <workItem from="1682137538571" duration="1012000" />
       <workItem from="1682138804422" duration="8447000" />
       <workItem from="1682279820408" duration="20643000" />
-      <workItem from="1682907879899" duration="10236000" />
+      <workItem from="1682907879899" duration="13020000" />
     </task>
     <servers />
   </component>
@@ -210,9 +220,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cureskin_automation$price_filter.coverage" NAME="price_filter Coverage Results" MODIFIED="1682908096690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/Cureskin_automation$hw3_returns_and_orders_feature_User_can_see_Sign_In_when_clicking_on_Returns_and_Orders.coverage" NAME="hw3_returns_and_orders.feature:User can see Sign In when clicking on Returns and Orders Coverage Results" MODIFIED="1682137874457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Cureskin_automation$price_filter_functionality_feature_User_can_change_the_price_filter.coverage" NAME="price_filter_functionality.feature:User can change the price filter Coverage Results" MODIFIED="1683073961049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Cureskin_automation$price_filter_functionality_feature_User_can_change_the_price_filter.coverage" NAME="price_filter_functionality.feature:User can change the price filter Coverage Results" MODIFIED="1683655889584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Cureskin_automation$price_filter_functionality_feature___Enter_scenario_name_here.coverage" NAME="price_filter_functionality.feature:# Enter scenario name here Coverage Results" MODIFIED="1682908113673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Cureskin_automation$cureskin_search_results_feature_Verify_that_Search_results_UI_is_correct.coverage" NAME="cureskin_search_results.feature:Verify that Search results UI is correct Coverage Results" MODIFIED="1682994001051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Cureskin_automation$cureskin_search_results_feature_Verify_that_Search_results_UI_is_correct.coverage" NAME="cureskin_search_results.feature:Verify that Search results UI is correct Coverage Results" MODIFIED="1683655904493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Cureskin_automation$product_search_feature_User_can_search_for_a_product.coverage" NAME="product_search.feature:User can search for a product Coverage Results" MODIFIED="1682137903193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Cureskin_automation$hw3_cart_is_empty_3task_feature_User_can_see_Empty_cart_when_clicking_on_Cart.coverage" NAME="hw3_cart_is_empty_3task.feature:User can see Empty cart when clicking on Cart Coverage Results" MODIFIED="1682361256476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
